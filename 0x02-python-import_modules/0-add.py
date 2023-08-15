@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-from custom_addition import add_numbers
+from add_0 import add
 
-num1 = 1
-num2 = 2
+a = 1
+b = 2
 
-result = add_numbers(num1, num2)
-print("{0} added to {1} gives us {2}".format(num1, num2, result)
+print("{0} + {1} = {2}".format(a, b, add(a, b)))
